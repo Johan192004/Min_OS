@@ -1,11 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="../styles/weather.css">
 </head>
-<body>
-    
+<body class="weather__body">
+    <header class="weather">
+        <h1 class="weather__city">Mountreal</h1>
+        <h2 class="weather__date">Jueves, 12 de Junio</h2>
+    </header>
+
+    <main class="weather__main">
+
+        <section class="city">
+            <section class="hero">
+                <h2 class="hero__h2">Parcialmente nublado</h2>
+                <span class="hero__span">27°</span>
+            </section>
+
+            <section class="city__hours">
+                <h2 class="hours__h2">Horas</h2>
+                <div class="hours__div">
+                    <article class="hours__item">
+                        <p class="hours__p">17:30</p>
+                        <span class="hours__span">28°</span>
+                    </article>
+
+                    <article class="hours__item">
+                        <p class="hours__p">18:30</p>
+                        <span class="hours__span">26°</span>
+                    </article>
+
+                    <article class="hours__item">
+                        <p class="hours__p">19:30</p>
+                        <span class="hours__span">22°</span>
+                    </article>
+
+                    <article class="hours__item">
+                        <p class="hours__p">20:30</p>
+                        <span class="hours__span">22°</span>
+                    </article>
+
+                    <article class="hours__item">
+                        <p class="hours__p">21:30</p>
+                        <span class="hours__span">21°</span>
+                    </article>
+
+                    <article class="hours__item">
+                        <p class="hours__p">22:30</p>
+                        <span class="hours__span">20°</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="city__info">
+
+                <h2 class="info__h2">Informacion</h2>
+                <div class="info__div">
+                    <figure class="info__item">
+                        <h3 class="into__state">Humedad</h3>
+                        <span class="info__value">27%</span>
+                    </figure>
+
+                    <figure class="info__item">
+                        <h3 class="into__state">Viento</h3>
+                        <span class="info__value">27km/hora</span>
+                    </figure>
+
+                    <figure class="info__item">
+                        <h3 class="into__state">Probabilidad de lluvia</h3>
+                        <span class="info__value">55%</span>
+                    </figure>
+
+                    <figure class="info__item">
+                        <h3 class="into__state">Temperatura</h3>
+                        <span class="info__value">27°</span>
+                    </figure>
+                </div>
+                
+            </section>
+        </section>
+
+        <section class="cities">
+            <h2 class="cities__h2">Otras ciudades</h2>
+            <article class="other_city">
+                <p class="other_city__name">Baranquilla</p>
+                <p class="other_city__state">Nublado</p>
+                <span class="other_city__temperature">40°</span>
+            </article>
+
+            <article class="other_city">
+                <p class="other_city__name">Medellin</p>
+                <p class="other_city__state">Lluvia</p>
+                <span class="other_city__temperature">23°</span>
+            </article>
+
+            <article class="other_city">
+                <p class="other_city__name">Bogota</p>
+                <p class="other_city__state">Despejado</p>
+                <span class="other_city__temperature">-50°</span>
+            </article>
+
+            <article class="other_city">
+                <p class="other_city__name">Bucaramanga</p>
+                <p class="other_city__state">Despejado</p>
+                <span class="other_city__temperature">27°</span>
+            </article>
+
+            
+        </section>
+
+    </main>
+
 </body>
 </html>
