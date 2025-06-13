@@ -54,4 +54,4 @@ Luego, puede darle click a cualquiera de los 3 botones, donde despues se abrira 
 ## Enlaces
 
 - Page: https://johan192004.github.io/Min_OS/
-- Azure: 
+- Azure: https://dev.azure.com/riwi-cohorte-4/Van%20Rossum/_backlogs/backlog/Van%20Rossum%20Team/Features?workitem=1881
