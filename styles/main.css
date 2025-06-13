@@ -1,3 +1,6 @@
+/* ============================
+   ROOT.
+============================= */
 :root {
     --bg-color: #101520;
     --surface: #1f2933;
@@ -10,6 +13,9 @@
     --shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
 }
 
+/* ============================
+   RESET Y BASIC.
+============================= */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -26,7 +32,9 @@ body {
     padding: 2rem;
 }
 
-/* Header */
+/* ============================
+   HEADER.
+============================= */
 .header {
     text-align: center;
     margin-bottom: 2rem;
@@ -42,7 +50,9 @@ body {
     margin-top: 0.5rem;
 }
 
-/* Menu */
+/* ============================
+   MENU.
+============================= */
 .menu {
     display: flex;
     flex-direction: column;
@@ -68,7 +78,9 @@ body {
     display: none;
 }
 
-/* Iframe */
+/* ============================
+   IFRAME
+============================= */
 .window {
     width: 100%;
     max-width: 1000px;
@@ -88,14 +100,18 @@ body {
     display: none;
 }
 
-/* Muestra el iframe correspondiente */
+/* =================================
+   MUESTRA IFRAME CORRESPONDIENTE
+===================================*/
 #app-note:checked ~ .window iframe[title="Notas"],
 #app-homeworks:checked ~ .window iframe[title="Tareas"],
 #app-weather:checked ~ .window iframe[title="Clima"] {
   display: block;
 }
 
-/* Footer */
+/* ============================
+   FOOTER
+============================= */
 .footer {
     text-align: center;
     margin-top: 2rem;
@@ -106,7 +122,9 @@ body {
     color: var(--highlight);
 }
 
-/* Media Querries */
+/* ============================
+   MEDIA QUERIES.
+============================= */
 @media (max-width: 768px) {
     .menu__options {
         flex-direction: column;
