@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MiniOS | homeworks</title>
+    <link rel="stylesheet" href="../styles/homeworks.css">
 </head>
-<body>
-    
+<body class="app app-homeworks">
+    <header class="header">
+        <h1 class="header__title">Gestor de Tareas.</h1>
+        <p class="header__subtitle">Organiza tus tareas y trabajos de forma sencilla.</p>
+    </header>
+
+    <main class="main">
+        <section class="task-group task-group__pending">
+            <h2 class="task-group__title">Tareas Pendientes.</h2>
+            <ul class="task-list">
+                <li class="task-list__item">
+                    <input type="checkbox" id="task1" class="task-list__checkbox">
+                    <label for="task1" class="task-list__label">
+                    Tarea 1
+                    </label>
+                </li>
+                <li class="task-list__item">
+                    <input type="checkbox" id="task2" class="task-list__checkbox">
+                    <label for="task2" class="task-list__label">
+                    Tarea 2
+                    </label>
+                </li>
+                <li class="task-list__item">
+                    <input type="checkbox" id="task3" class="task-list__checkbox">
+                    <label for="task3" class="task-list__label">
+                    Tarea 3
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="task-group task-group__progress">
+            <h2 class="task-group__title">En Progreso.</h2>
+            <ul class="task-list">
+                <li class="task-list__item">
+                    <input type="checkbox" id="task4" class="task-list__checkbox">
+                    <label for="task4" class="task-list__label">
+                    Tarea 4
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="task-group task-group__completed">
+            <h2 class="task-group__title">Completadas.</h2>
+            <ul class="task-list">
+                <li class="task-list__item">
+                    <input type="checkbox" id="task5" class="task-list__checkbox">
+                    <label for="task5" class="task-list__label">
+                    Tarea 5
+                    </label>
+                </li>
+            </ul>
+        </section>
+
+        <section class="notes">
+            <h2 class="notes__title">Notas Adicionales.</h2>
+            <div class="notes__box">
+                <p class="notes__text">
+                   - Nota 1 <br> 
+                   - Nota 2 <br>
+                   - Nota 3 
+                </p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
