@@ -10,6 +10,9 @@ Min OS es una pagina web que emula un mini Sistema Operativo, donde se pueden ab
      - note.html
      - weather.html
    - styles
+     - homeworks.css
+     - note.css
+     - weather.css
      - main.css
    - index.html
    - manifest.json
